@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Jordan-Gilliam/command-z/issues"
   },
-  "homepage": "https://github.com/Jordan-Gilliam/command-z#readme"
+  "homepage": "https://github.com/Jordan-Gilliam/command-z#readme",
+  "dependencies": {
+    "puppeteer": "^2.0.0"
+  }
 }
