@@ -1,5 +1,6 @@
 const puppeteer = require('puppeteer');
 const { goToUrl, waitForEl, typeInEl, click } = require('./util');
+const { user, pass, name } = require('./env');
 
 (async () => {
   browser = await puppeteer.launch({
